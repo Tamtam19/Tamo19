@@ -1,0 +1,58 @@
+@import url(./global.css);
+body {
+    background-color: aquamarine;
+    background-size: cover;
+}
+h1 , h2 ,p {
+    font-family: 'Noto Sans 1';
+}
+header{
+    background-color: var(--navbackground);
+    height: 50px;
+    box-shadow: 0px 0px 20px 2px;
+}
+.container{
+    width: 1300px;
+}
+header nav div a{
+    font-size: 30px;
+    color: var(--black);
+    text-decoration: none;
+}
+header nav div a:hover{
+    color: rgb(124, 124, 124);
+}
+header nav div {
+    gap:0px 20px;
+}
+.title-div{
+    height: 120px;
+}
+.Mango {
+    display: flex;
+    justify-content: center; 
+    gap: 30px;
+}
+.Mango p {
+    width: 500px;
+}
+.mshobelidivi {
+    display: flex;
+    flex-direction: column; /* ალაგებს ზემოდან ქვევვით */
+    gap: 50px; /* დაშორებებს აკეთებს მარჯვნიდან და მარცხნიდან*/
+}
+.h2title{
+    margin: auto;
+}
+.flex-container {
+    display: flex;      
+  }
+  .flex-container img{
+    width: 200px;
+  }
+  .flex-container > div {
+    background-color: #f1f1f1;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+  }

@@ -1,0 +1,18 @@
+
+div {
+    padding: 20px;
+    background-color: lightseagreen;
+}
+.div-1 {
+   background-color:blueviolet
+}
+  .div-1 {
+   position: relative;
+   top: 200px;
+}
+.div-2 {
+    background-color: yellowgreen;
+}
+.div-3 {
+    background-color: tomato;
+}
